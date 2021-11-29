@@ -1,0 +1,30 @@
+{
+  "name": "test_case_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:c": "jest --coverage",
+    "test:change": "jest --onlyChanged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jl917/test_case_sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jl917/test_case_sample/issues"
+  },
+  "homepage": "https://github.com/jl917/test_case_sample#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1",
+    "eslint": "^8.3.0",
+    "jest": "^27.3.1"
+  }
+}
